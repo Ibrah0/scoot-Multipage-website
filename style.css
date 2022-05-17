@@ -2,7 +2,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    width: auto;
+}
+.container{
+    width: 80vw;
+    margin: auto;
+}
+
+
+body{
+overflow-x: hidden;
 }
 
 li,a,button{
@@ -89,7 +97,7 @@ button:hover{
  line-height: 2.5rem;
  height: 100px;
  position: absolute;
- left: 260px;
+ left: 160px;
  top: 401px;
  font-family: 'Lexend Deca';
  font-style: normal;
@@ -117,15 +125,15 @@ button:hover{
      margin-top: 2.4rem;
  }
 
-.yellow{
+/* .yellow{
     margin: 0 auto;
-    border: 3px solid transparent;
-}
+     border: 3px solid transparent; 
+} */
   .home-hero .circles{
     position: absolute;
-    width: 234px;
+    width: auto;
     height: 63px;
-    left: 1150px;
+    left: 1050px;
     top: 518.5px;
  } 
 
@@ -133,7 +141,7 @@ button:hover{
      position: absolute;
      width: 446.38px;
      height: 99.37px;
-     left: 705px;
+     left: 565px;
      top: 451px;
  }  
 
@@ -141,7 +149,7 @@ button:hover{
     position: absolute;
     width: 203px;
     height: 1px;
-    left: 0px;
+    left: -60px;
     top: 450px;
  } 
 
@@ -149,7 +157,7 @@ button:hover{
     position: absolute;
     width: 180px;
     height: 53px;
-    left: 260px;
+    left: 160px;
     top: 541px;
  }
 
@@ -235,6 +243,7 @@ button:hover{
     line-height: 28px;
     letter-spacing: -1.07143px;
     color: #495567;
+    word-spacing: 20px;
 }
 
 .t-h4-2{
@@ -250,6 +259,7 @@ button:hover{
     line-height: 28px;
     letter-spacing: -1.07143px;
     color: #495567;
+    word-spacing: 20px;
 }
 
 .t-h4-3{
@@ -265,6 +275,7 @@ button:hover{
     line-height: 28px;
     letter-spacing: -1.07143px;
     color: #495567;
+    word-spacing: 20px;
 }
 
 .horizontal-line{
@@ -283,12 +294,12 @@ button:hover{
     left: 165px;
 }
 .telemetry{
-     position: absolute;
+    position: absolute;
     width: auto;
     height: 456px;
     left: 540px;
-     clip-path: circle(); 
-     top: -151px;
+    clip-path: circle(); 
+    top: -151px;
 }
 .circle-copy{
     position: absolute;
@@ -337,10 +348,10 @@ button:hover{
 
 .left-downward-arrow{
     position: absolute;
-width: 735px;
-height: 138px;
-left: 705px;
-top: 1704px;
+    width: 735px;
+    height: 138px;
+    left: 705px;
+    top: 1704px;
 }
    
 .container-next{
@@ -365,6 +376,7 @@ top: 1704px;
     height: 138px;
     right: 590px;
     top: -150px;
+    z-index: 1;
 }
 
 .zero-main {
@@ -396,3 +408,1015 @@ top: 1704px;
     left: 990px;
     top: 2390px;
 }
+
+.main-wrap_index{
+    width: 100%;
+    background: #333A44;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 3250px;
+    height: 100px;
+}
+.asta-index{
+    background-color: hsl(216, 17%, 35%);
+    top: 2950px;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+}
+.footcircle-index{
+    position: absolute;
+    left: 350px;
+    top: 150px;
+}
+.wrap-1{
+    padding: 10px 35px;
+    display: inline-flex;
+
+}
+.social-wrap{
+    position: absolute;
+    top: 55px;
+    width: 120px;
+    height: 24px;
+ }
+ .facebook{
+     position: absolute;
+     right: 100px;
+ }
+ .twitter{
+     position: absolute;
+     right: 55px;
+ }
+ .instagram{
+     position: absolute;
+     right: 5px;
+ }
+ .facebook:hover{
+     cursor: pointer;
+     background-color: #fff;
+ }
+ .twitter:hover{
+     cursor: pointer;
+     background-color: #fff;
+ }
+ .instagram:hover{
+     cursor: pointer;
+     background-color: #fff;
+ }
+
+
+
+/* About page */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.page-header{
+    background-image: url(./assets/images/about-hero-desktop.jpg);
+    height: 150px;
+    width: 1260px;
+}
+
+.t-h11{
+    position: absolute;
+    top: 140px;
+    width: 162px;
+    height: 56px;
+    left: 165px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: 2.5px;
+    color: #fff;
+}
+
+ .page-header_circles{
+    position: absolute;
+    width: 234px;
+    height: 63px;
+    top: 140px;
+    left: 1070px; 
+} 
+
+.picture{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 700px;
+    top: 316px;
+    clip-path: circle();
+} 
+
+.pic{
+    position: absolute;
+    width: 445px;
+    height: 445px;;
+    left: 1200px;
+    top: 316px;
+}
+
+.t-h2_about{
+    position: absolute;
+    height: 96px;
+    width: 445px;
+    left: 165px;
+    top: 441px;
+    border-radius: nullpx;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color:  #495567;
+}
+
+.t-body_about{
+    position: absolute;
+    height: 96px;
+    width: 445px;
+    left: 165px;
+    top: 560px;
+    border-radius: nullpx;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: #939CAA;
+}
+
+.pic-arrow{
+    position: absolute;
+    width: 735px;
+    height: 139px;
+    left: 585px;
+    top: 584px;
+}
+.t-h4_better{
+    position: absolute;
+    top: 995px;
+    left: 830px;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+    color:  #495567;
+}
+
+.t-body_better{
+    position: absolute;
+    top: 1106px;
+    height: 195px;
+    width: 445px;
+    left: 830px;
+    top: 1106px;
+    border-radius: nullpx;
+    color: #939CAA;
+}
+
+.better-icon1{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 104px;
+    clip-path: circle();
+    top: 810px;
+}
+
+.better-circ{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: -405px;
+    top: 810px;
+}
+
+.better-arrow{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 850px;
+    z-index: 2;
+    left: 10px;
+}
+.value-holder{
+    position: absolute;
+    height: 48px;
+    width: 540px;
+    left: 400px;
+    top: 1346px;
+    border-radius: nullpx;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: center;
+    color:  #495567;
+}
+.values-img{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: 153px;
+    top: 1479px;
+    clip-path: circle();
+}
+.values-number{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 255px;
+    top: 1690px;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: center;
+    color: #495567;
+    background: #FCB72B;
+    clip-path: circle();
+}
+.num{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.t-h4_values{
+    position: absolute;
+    width: 350px;
+    height: 130px;
+    left: 100px;
+    top: 1750px;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: center;
+    color: #495567;
+}
+
+.t-body1_values{
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    left: 155px;
+    top: 1790px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}
+
+.values-img1{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: 500px;
+    top: 1479px;
+    clip-path: circle();
+}
+.values-number1{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 600px;
+    top: 1690px;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: center;
+    color: #495567;
+    background: #FCB72B;
+    clip-path: circle();
+}
+
+.t-h4_values1{
+    position: absolute;
+    width: 350px;
+    height: 130px;
+    left: 450px;
+    top: 1750px;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: center;
+    color: #495567;
+}
+
+.t-body1_values1{
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    left: 499px;
+    top: 1790px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}
+
+.t-h4_values1{
+    position: absolute;
+    width: 350px;
+    height: 130px;
+    left: 450px;
+    top: 1750px;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: center;
+    color: #495567;
+}
+.values-img2{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: 900px;
+    top: 1479px;
+    clip-path: circle();
+}
+.values-number2{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1000px;
+    top: 1690px;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: center;
+    color: #495567;
+    background: #FCB72B;
+    clip-path: circle();
+}
+
+.t-h4_values2{
+    position: absolute;
+    width: 350px;
+    height: 130px;
+    left: 850px;
+    top: 1750px;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: center;
+    color:  #495567;
+}
+
+.t-body1_values2{
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    left: 890px;
+    top: 1790px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}
+
+/* FAQs */
+
+.faq-heading{
+    position: absolute;
+    height: 48px;
+    width: 540px;
+    left: 350px;
+    top: 1900px;
+    border-radius: nullpx;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: center;
+    color: #495567;
+}
+
+.faq-1{
+    background-color:  #F2F5F9;
+    position: absolute;
+    left: 490px;
+    top: 1978px;
+    height: 120px;
+    width: 725px;
+    border-radius: nullpx;
+    color:  #495567;
+}
+.faq-1:hover{
+    background-color: #FFF4DF; 
+    cursor: pointer;
+}
+
+.t-3_faq{
+    position: absolute;
+    height: 48px;
+    width: 350px;
+    left: 155px;
+    top: 1978px;
+    border-radius: nullpx;
+    font-family: Space Mono;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.7857142686843872px;
+    text-align: left;
+    color:  #495567;
+}
+
+.t-4_faq{
+    position: absolute;
+    top: 4px;
+    left: 40px;
+    width: 650px;
+    height: 28px;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: left;
+    color: #495567;
+}
+
+.faq-arrowup{
+    position: absolute;
+    left: 87.54%;
+    right: 0%;
+    top: 24.29%;
+    bottom: 7.14%;
+    border: 1px  #FCB72B;
+}
+
+.t-body_faq{
+    position: absolute;
+    top: 45px;
+    left: 30px;
+    width: 650px;
+    font-weight: 400, regular;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:  #495567;
+    height: 75px;
+}
+.faq-1_2{
+    background-color:  #F2F5F9;
+    position: absolute;
+    width: 730px;
+    height: 120px;
+    left: 490px;
+    top: 2110px;
+}
+.faq-1_2:hover{
+    background-color: #FFF4DF; 
+    cursor: pointer;
+}
+
+.faq-2{
+    font-family: 'Space Mono' ;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: left;
+    position: absolute;
+    height: 14px;
+    left: 40px;
+    top: calc(50% - 28px/2);
+    color: #495567;
+}
+.faq-arrowdown0{    position: absolute;
+    left: 215%;
+    right: 0%;
+    top: 24.29%;
+    bottom: 7.14%;
+    border: 1px  #FCB72B;
+}
+.faq-1_3{
+    background-color:  #F2F5F9;
+    position: absolute;
+    width: 730px;
+    height: 120px;
+    left: 490px;
+    top: 2240px;
+}
+.faq-1_3:hover{
+    background-color: #FFF4DF; 
+    cursor: pointer;
+}
+.faq-3{
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: left;
+    position: absolute;
+    height: 14px;
+    left: 40px;
+    top: calc(50% - 28px/2);
+    color: #495567;
+}
+.faq-arrowdown{
+    position: absolute;
+    left: 250%;
+    right: 0%;
+    top: 24.29%;
+    bottom: 7.14%;
+    border: 1px  #FCB72B;
+}
+
+.faq1{
+    position: absolute;
+    top: 400px;
+}
+.footer-logo{
+    position: absolute;
+    top: 35px;
+}
+.main-wrap_about{
+    width: 100%;
+    background: #333A44;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 3200px;
+    height: 100px;
+}
+.footcircle-about{
+    position: absolute;
+    left: 350px;
+    top: 100px;
+}
+.asta-about{
+    background-color: #495567;
+    top: 2950px;
+    position: absolute;
+    width: 100%;
+    height: 250px;
+}
+.wrap-1{
+    padding: 10px 35px;
+    display: inline-flex;
+
+}
+.social-wrap{
+    position: absolute;
+    left: 1100px;
+    width: 120px;
+    height: 24px;
+    top: 25px;
+ }
+ .facebook{
+     position: absolute;
+     right: 100px;
+     top: -10px;
+ }
+ .twitter{
+     position: absolute;
+     right: 55px;
+     top: -10px;
+ }
+ .instagram{
+     position: absolute;
+     right: 5px;
+     top: -10px;
+ }
+ .facebook:hover{
+     cursor: pointer;
+     background-color: #fff;
+ }
+ .twitter:hover{
+     cursor: pointer;
+     background-color: #fff;
+ }
+ .instagram:hover{
+     cursor: pointer;
+     background-color: #fff;
+ }
+
+
+
+
+/* location */
+
+
+.location-header{
+    background-image: url(./assets/images/careers-locations-hero-desktop.jpg);
+    height: 150px;
+    width: 1260px;
+}
+
+.location-header_circles{
+    position: absolute;
+    width: 234px;
+    height: 63px;
+    top: 140px;
+    left: 1070px; 
+}
+
+.location-main{
+    position: absolute;
+    top: 300px;
+}
+.t-h2_location{
+    position: absolute;
+    height: 96px;
+    width: 445px;
+    left: 165px;
+     top: 800px; 
+    border-radius: nullpx;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color:  #495567;
+}
+
+.t-body_location{
+    position: absolute;
+    height: 96px;
+    width: 445px;
+    left: 550px;
+    top: 815px; 
+    border-radius: nullpx;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: #939CAA;
+}
+.last-btn{
+    position: absolute;
+    top: 700px;
+    height: 96px;
+    width: 445px;
+    left: 1000px;
+    top: 825px; 
+    border-radius: nullpx;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.container-low{
+    position: absolute;
+    width: 500px;
+    height: 112px;
+     left: 25px;
+     top:  85px;  
+     font-family: 'Space Mono';
+     font-size: 38px;
+     font-weight: 700,bold;
+     line-height: 48px;
+     letter-spacing: 2.142857074737549px;
+     text-align: left;
+    color: #FFF;
+}
+.body-img{
+    position: absolute;
+    right: 150px;
+    top: 70px;
+}
+
+.wrap-1{
+    padding: 10px 35px;
+    display: inline-flex;
+
+}
+.social-wrap{
+   position: absolute;
+   width: 120px;
+   height: 24px;
+   top: 25px;
+}
+.facebook{
+    position: absolute;
+    right: 100px;
+}
+.twitter{
+    position: absolute;
+    right: 55px;
+}
+.instagram{
+    position: absolute;
+    right: 5px;
+}
+.facebook:hover{
+    cursor: pointer;
+    background-color: #fff;
+}
+.twitter:hover{
+    cursor: pointer;
+    background-color: #fff;
+}
+.instagram:hover{
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.main-wrap{
+    width: 100%;
+    background: #333A44;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 1350px;
+    height: 100px;
+}
+.footcircle-location{
+    position: absolute;
+    left: 350px;
+    top: 100px;
+    width: 1153px;
+    height: 347px
+}
+.asta{
+    background-color: #495567;
+    top: 1100px;
+    position: absolute;
+    width: 100%;
+    height: 250px;
+}
+.wrap-1{
+    padding: 10px 35px;
+    display: inline-flex;
+}
+.social-wrap{
+    position: absolute;
+    right: 100px;
+    justify-content: center;
+}
+ .facebook{
+     position: absolute;
+     right: 100px;
+ }
+ .twitter{
+     position: absolute;
+     right: 55px;
+ }
+ .instagram{
+     position: absolute;
+     right: 5px;
+ }
+ .facebook:hover{
+     cursor: pointer;
+     background-color: #fff;
+ }
+ .twitter:hover{
+     cursor: pointer;
+     background-color: #fff;
+ }
+ .instagram:hover{
+     cursor: pointer;
+     background-color: #fff;
+ }
+
+
+
+/* careers */
+
+.Careers-header{
+    background-image: url(./assets/images/careers-locations-hero-desktop.jpg);
+    height: 150px;
+    width: 1260px;
+}
+
+.careers-picture{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 700px;
+    top: 316px;
+    clip-path: circle();
+} 
+
+.careers-pic{
+    position: absolute;
+    width: 445px;
+    height: 445px;;
+    left: 1200px;
+    top: 316px;
+}
+
+.t-h2_careers{
+    position: absolute;
+    height: 96px;
+    width: 445px;
+    left: 165px;
+    top: 341px;
+    border-radius: nullpx;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    color:  #495567;
+}
+
+.careers-arrow{
+    position: absolute;
+    top: 550px;
+    left: 590px;
+}
+
+.t-body_careers{
+    position: absolute;
+    height: 195px;
+    width: 445px;
+    left: 150px;
+    top: 455px;
+    border-radius: nullpx;
+    color: #939CAA;
+}
+.careers{
+    position: absolute;
+    top: -460px;
+}
+.careers-down{
+    position: absolute;
+    width: 888px;
+    height: 888px;
+    left: 1px;
+    top: -210px;
+}
+.career-back1{
+    position: absolute;
+    width: 888px;
+    height: 128px;
+    left: 165px;
+    top: 1709px;
+    background: #F2F5F9;
+}
+.career-back2{
+    position: absolute;
+    width: 888px;
+    height: 128px;
+    left: 165px;
+    top: 1849px;
+    background: #F2F5F9;
+}
+.career-back3{
+    position: absolute;
+    width: 888px;
+    height: 128px;
+    left: 165px;
+    top: 1989px;
+    background: #F2F5F9;
+}
+.career-back4{
+    position: absolute;
+    width: 888px;
+    height: 128px;
+    left: 165px;
+    top: 2130px;
+    background: #F2F5F9;
+}
+.career-back5{
+    position: absolute;
+    width: 888px;
+    height: 128px;
+    left: 165px;
+    top: 2270px;
+    background: #F2F5F9;
+}
+.career-back6{
+    position: absolute;
+    width: 888px;
+    height: 128px;
+    left: 165px;
+    top: 2415px;
+    background: #F2F5F9;
+}
+.careers-head{
+    position: absolute;
+    top: 20px;
+    width: 650px;
+    height: 28px;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.0714285373687744px;
+    text-align: left;
+    color: #495567;
+}
+.careers-p{
+    position: absolute;
+    top: 55px;
+    width: 650px;
+    font-weight: 400, regular;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:  #495567;
+}
+.new{
+    position: absolute;
+    left: 750px;
+    top: 40px;  
+    background: transparent;
+}
+.main-wrap_careers{
+    width: 100%;
+    background: #333A44;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 2810px;
+    height: 100px;
+}
+.asta-careers{
+    background-color: #495567;
+    top: 2560px;
+    position: absolute;
+    width: 100%;
+    height: 250px;
+}
+.footcircle-careers{
+    position: absolute;
+    left: 350px;
+    top: 100px;
+}
+.wrap-1{
+    padding: 10px 35px;
+    display: inline-flex;
+
+}
+.social-wrap{
+    position: absolute;
+    top: 25px;
+    width: 120px;
+    height: 24px;
+ }
+ .facebook{
+     position: absolute;
+     right: 100px;
+ }
+ .twitter{
+     position: absolute;
+     right: 55px;
+ }
+ .instagram{
+     position: absolute;
+     right: 5px;
+ }
+ .facebook:hover{
+     cursor: pointer;
+     background-color: #fff;
+ }
+ .twitter:hover{
+     cursor: pointer;
+     background-color: #fff;
+ }
+ .instagram:hover{
+     cursor: pointer;
+     background-color: #fff;
+ }
+
+/* media queries */
+@media screen and (min-width:500px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+ 
+
